@@ -1,0 +1,94 @@
+@media (max-width: 576px) {
+  * {
+    width: 576px;
+    margin: 0;
+    padding: 0;
+  }
+  .banner {
+    height: 50vh;
+    width: 576px;
+  }
+
+  /* navbar */
+  .main-name {
+    display: none;
+  }
+  .container1 {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .container1 a {
+    border: none;
+    text-align: left;
+    padding: 10px;
+  }
+
+  /* about */
+  .container2 {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 500px;
+  }
+  .target {
+    margin: 0;
+    padding: 40px 60px;
+    width: 576px;
+    height: auto;
+  }
+  .target p {
+    width: 450px;
+  }
+  .personal-info {
+    margin: 0;
+    padding: 40px 60px;
+    height: auto;
+    width: 576px;
+  }
+
+  li {
+    padding: 0;
+    width: 500px;
+  }
+  /* job info */
+  .container3 {
+    flex-direction: column;
+    margin: 30px 30px;
+  }
+
+  .job-info-card div {
+    width: 90%;
+    padding: 40px 40px;
+  }
+
+  /* certificate */
+  .container4 {
+    padding: 40px 40px;
+  }
+
+  .container4-flex {
+    display: flex;
+    flex-direction: column;
+  }
+  .flex {
+    flex-direction: column;
+  }
+  .flex img {
+    width: 490px;
+  }
+
+  /* project */
+  .container5-flex {
+    flex-direction: column;
+  }
+  .grid {
+    grid-template-columns: 1fr 2fr 2fr;
+  }
+  .grid p {
+    width: auto;
+  }
+  .grid img {
+    width: 550px;
+    height: auto;
+  }
+}

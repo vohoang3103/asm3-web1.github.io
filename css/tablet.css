@@ -1,0 +1,95 @@
+@media (max-width: 768px) {
+  * {
+    width: 768px;
+    margin: 0;
+    padding: 0;
+  }
+  .banner {
+    height: 50vh;
+    width: 768px;
+  }
+
+  /* navbar */
+  .main-name {
+    display: none;
+  }
+  .container2 {
+  }
+  .target {
+    width: 50%;
+    padding: 40px 40px;
+  }
+  .target p {
+    width: auto;
+  }
+  .personal-info h1,
+  .target h1 {
+    font-size: 30px;
+  }
+  .personal-info {
+    width: 50%;
+    padding: 40px 40px;
+  }
+
+  /* JOB INFO */
+  .container3 {
+    margin: 0;
+  }
+
+  .info-box-top h1,
+  .info-box-top i {
+    width: auto;
+  }
+  #job-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .card-1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  .card-2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+  /* certificate */
+  .container4 {
+    padding: 40px 40px;
+  }
+  .flex-1 img,
+  .flex-2 img,
+  .flex-3 img {
+    width: 250px;
+  }
+  .flex {
+    flex-direction: column;
+    width: 250px;
+  }
+  .container4-flex {
+    column-gap: 0;
+  }
+
+  /* project */
+  .container5 {
+    padding-bottom: 40px;
+  }
+  .container5-flex {
+    gap: 10px;
+  }
+  .grid {
+    display: grid;
+  }
+  .grid img {
+    width: 235px;
+    height: auto;
+  }
+  .grid p {
+    width: auto;
+  }
+
+  /* footer */
+  .container-footer {
+    padding: 30px 10px;
+  }
+}

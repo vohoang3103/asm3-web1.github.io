@@ -1,0 +1,281 @@
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 /
+ 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 
+30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 205vh;
+  font-family: "Rubik", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+h1 {
+  font-weight: 500;
+}
+/* ICON */
+
+.icon {
+  color: #339af0;
+  width: 40px;
+  height: 40px;
+}
+
+/* edit banner */
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #f7f7f7;
+  font-weight: 500;
+}
+
+.banner-content,
+.banner-content h1,
+.banner-content span {
+  text-align: center;
+  padding-top: 50px;
+}
+
+/* edit nav bar */
+#nav-bar {
+  background-color: white;
+}
+.container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container1 div {
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+  width: 300px;
+}
+.container1 a {
+  font-size: 16px;
+  color: #343a40;
+  text-align: center;
+  width: 200px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 30px 16px;
+  border-left: 1px solid #e9ecef;
+  border-right: 1px solid #e9ecef;
+}
+
+.container1 a:hover,
+.icon:hover {
+  background-color: #339af0;
+  color: #f7f7f7;
+}
+.info-icon {
+  margin-top: 24px;
+}
+/* .container1:hover {
+  color: #f7f7f7;
+  background-color: #339af0;
+} */
+/* EDIT ABOUT */
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.7;
+}
+
+.container2 h1 {
+  padding-bottom: 20px;
+}
+.target {
+  height: 400px;
+  width: 50%;
+  padding: 96px 100px;
+  background-color: #e9ecef;
+}
+.personal-info {
+  height: 400px;
+  width: 50%;
+  padding: 96px 100px;
+  background-color: #dee2e6;
+}
+
+ul {
+  list-style: none;
+}
+
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 /
+ 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 
+30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+/* EDIT JOB INFO */
+.container3 {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  line-height: 1.7;
+  margin: 96px;
+}
+.job-info-card div {
+  width: 50vh;
+  padding: 32px;
+  border: 1px solid #e9ecef;
+}
+
+.job-info-card ul li {
+  padding: 32px;
+}
+
+.job-info-card ul li p:first-child {
+  font-size: 18px;
+  font-weight: 450;
+}
+
+#hobby {
+  display: flex;
+  justify-content: center;
+  padding: 0 0;
+}
+
+.info-box-top {
+  display: flex;
+  gap: 50px;
+}
+
+.box-top {
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+/* CERTIFICATE */
+
+.section-title {
+  margin-bottom: 64px;
+}
+.container4 {
+  background-color: #e9ecef;
+  padding: 100px 200px;
+}
+
+.container4-flex {
+  display: grid;
+  grid-template-columns: 2;
+  grid-template-rows: 2;
+  column-gap: 32px;
+  row-gap: 64px;
+}
+
+.flex-2 {
+  grid-column: 2/ 3;
+}
+
+.flex {
+  display: flex;
+  gap: 14px;
+}
+
+/* PROJECT */
+.container5 {
+  padding: 100px 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container5-flex {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+
+.container5-flex div {
+  width: 350px;
+}
+.grid p {
+  padding: 12px;
+  border-top: 1px solid #e9ecef;
+  border-bottom: 1px solid #e9ecef;
+  margin-bottom: 0;
+}
+
+.grid {
+  /* display: grid; */
+  grid-template-columns: 3;
+  grid-row: 6;
+}
+
+/* VI TRI CAC ITEMS TRONG GRID MOI DU AN */
+.anh {
+  grid-column: 1/4;
+  grid-row: 1/2;
+}
+
+.ten {
+  grid-column: 1/4;
+  grid-row: 2/3;
+}
+.year {
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+.funix {
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+.job {
+  grid-column: 3/4;
+  grid-row: 3/4;
+}
+.mota {
+  grid-column: 1/2;
+  grid-row: 4/5;
+}
+.mota-2 {
+  grid-row: 4/5;
+  grid-column: 2/4;
+}
+.nhiemvu {
+  grid-column: 1/2;
+  grid-row: 5/6;
+}
+.nhiemvu-2 {
+  grid-row: 5/6;
+  grid-column: 2/4;
+}
+.congnghe {
+  grid-column: 1/2;
+  grid-row: 6/7;
+}
+.congnghe-2 {
+  grid-row: 6/7;
+  grid-column: 2/4;
+}
+
+/* EDIT FOOTER */
+
+.bg-grey {
+  background-color: #e9ecef;
+}
+.container-footer {
+  padding: 40px 200px;
+  display: flex;
+  justify-content: center;
+}
+.container-footer p {
+  padding: 0 44px;
+}
